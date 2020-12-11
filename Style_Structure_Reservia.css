@@ -23,7 +23,6 @@ header
 
 
 /****Menu Navigation Desktop****/
-
 .navigation ul
 {
     list-style-type: none;
@@ -111,6 +110,17 @@ header
     margin-left: 30px;
 }
 
+.et1 h1
+{
+    font-size: xx-large;
+}
+.et1 h2
+{
+    font-size: medium;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
 
 /****Bloc 2****/
 .et2
@@ -177,8 +187,7 @@ input::placeholder
     border-radius: 3px;
     cursor: pointer; 
     text-decoration: none;
-    border-top-right-radius: 15px ;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
 }
 
 .bouton_rechercher1 i
@@ -346,16 +355,12 @@ p
     margin: 0 0 37px 0;
 }
 
-
 .img_c1  
 {
-    /*border:5px solid white;*/
-    background-color: white;
     border-radius: 10px;
     height: auto;
     box-shadow: 0px 7px 7px  #e2e2e2;
 }
-
 
 .img_c1 .p , .etoiles
 {
@@ -363,13 +368,23 @@ p
     margin-bottom: 10px;
 }
 
-
 .im1, .im2, .im3, .im4, .im5, .im6
 {
     border-top-left-radius:10px;
     border-top-right-radius: 10px;
     object-fit: cover;
     width: 100%;
+    border: 5px solid white;
+}
+
+.l1
+{
+    background-color: white;
+    border: 5px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width : 100%;
+    margin-top: -10px;
 }
 
 .afficher_plus
@@ -406,14 +421,9 @@ p
     margin-right: 50px;
 }
 
-/*.populaire i
-{
-    position: right;
-}*/
-
 .img_c2
 {
-    /*border: 5px solid white;*/
+    border: 5px solid white;
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -434,6 +444,10 @@ p
     padding-left: 10px;
     position: relative;
     background-color: white;
+    border-right: 5px solid white;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /****Marge inter lignes****/
@@ -575,7 +589,10 @@ footer
     padding-left: 0px;  
 }
 
-
+h2
+{
+    font-size: large;
+}
 /****Liens****/
 a:link 
 { 
@@ -984,11 +1001,15 @@ a:link
             margin-top :30px;
         }
 
-           
         .et1 , .et2, .et3, .et4
         {
-            margin-left: 10px;
-        }  
+            margin-left: 15px;
+        } 
+        
+        .et1 h1
+        {
+            font-size: x-large;
+        }
 
         /****Bloc 2****/
         .et2
@@ -1011,6 +1032,7 @@ a:link
         .bouton_rechercher1
         {
             display: block;
+            margin-left: -12px;
         }
 
         /****Corps 1 - Corps2****/
